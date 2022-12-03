@@ -1,5 +1,5 @@
 # Irene
-
+##Cognitive Behavioural Therapy for everyone with love.
 
 ## Installation and Usage
 
@@ -9,6 +9,6 @@
 ```
 pip install conversant
 ```
-### Streamlit Demo
+### Streamlit Demo 
 
-Want to see it in action first? You can use `conversant` on a [Streamlit](https://docs.streamlit.io/) app without installing anything [here](https://conversant.streamlit.app/)! 🎉 
+Want to see it in action first? You can use `conversant` on a [Streamlit](https://docs.streamlit.io/) app without installing anything [here](https://conversant.streamlit.app/) with love.
