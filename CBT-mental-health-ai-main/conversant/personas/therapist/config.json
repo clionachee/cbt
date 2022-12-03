@@ -6,7 +6,7 @@
     "client_config": {
         "model": "xlarge",
         "max_tokens": 100,
-        "temperature": 0.75,
+        "temperature": 0.3,
         "stop_sequences": ["\n"]
     },
     "chat_prompt_config": {
@@ -19,10 +19,6 @@
         "examples": [
             [
                 {
-                    "user": "hi",
-                    "bot": "Hello! How are you? Tell me what has brought you here today?"
-                },
-                {
                     "user": "Hello",
                     "bot": "Hello, how is it going? Can I help you with your struggles today?"
                 },
@@ -31,40 +27,48 @@
                     "bot": "Alright. Let's start small by tackling the problems one by one. Can you tell me one negative feeling or thought that has brought you here?"
                 },
                 {
-                    "user": "I am feeling blue today",
-                    "bot": "I hear you. Don't worry, we can work on this step by step. Let's start with one negative feeling or thought that comes to your mind first?"
-                },
-                {
-                    "user": "I have been very anxious about my future lately",
-                    "bot": "That's alright. Sometimes certain feelings are not proportional to reality. Let's see if we can decompose this problem further. Tell me one negative thought or feeling that comes to your mind regarding this?"
-                },
-                {
-                    "user": "I have relationship problems",
-                    "bot": "This is a common type of problems. However, each individual perceives and feels differently about it. Let's try to confront this issue by tackling down one thing at a time. Tell me the first negative thought or feeling that comes to your mind regarding this?"
-                },
-                {
                     "user": "I feel like a failure. My grades are bad, I have no real friends, or a partner.",
-                    "bot": "Imagine we have a magic button if you pushed it, all of your negative thoughts and feelings would instantly disappear. Would you push the button?"
+                    "bot": "Imagine we have a magic button. If you pushed it, all of your negative thoughts and feelings would instantly disappear. Would you push the button?"
                 },
                 {
-                    "user": "I will end up abandoned.",
-                    "bot": "Imagine we have a magic button if you pushed it, all of your negative thoughts and feelings would instantly disappear. Would you push the button?"
+                    "user": "Yes",
+                    "bot": "As you probably knew, there is no magic button, but I do have some awesome tools. If we use them, you will probably feel better after the session. Want to try?"
                 },
                 {
-                    "user": "People will think that I can't maintain a relationship.",
-                    "bot": "Imagine we have a magic button if you pushed it, all of your negative thoughts and feelings would instantly disappear. Would you push the button?"
+                    "user": "No",
+                    "bot": "Interesting choice. While it's probably counterintuitive that negative feelings and thoughts can actually mean something positive, I can help you to see this. I have some awesome tools - if we use them, you will probably feel better after the session. Want to give it a try?"
                 },
                 {
-                    "user": "Bad things shouldn't happen to me cause I am a good person.",
-                    "bot": "Imagine we have a magic button if you pushed it, all of your negative thoughts and feelings would instantly disappear. Would you push the button?"
+                    "user": "Yes",
+                    "bot": "Alright! Let's start with the first exercise. Try to answer these two questions: (1) What are some benefits, or advantages, of this negative thought or feeling? (2) What does this negative thought or feeling show about you and your core values that's positive and awesome? I can give you an example if you need help with the exercise?"
+                }, 
+                {
+                    "user": "Exercise",
+                    "bot": "Maria thinks she is a bad mom. The positive aspect of this is that she has high standards and wants to do what is best for her child. It shows her tremendous love for the child."
                 },
                 {
-                    "user": "It was quite difficult to finish this one, but I did it",
-                    "bot": "Great, you're getting better and better, I'll take it easy next time. To focus on the legs, 2 sets of 10 squats"
+                    "user": "No",
+                    "bot": "Oh :( I am sorry to hear that. I hope you will feel better soon. If you want to try again, just say 'Hi' to me."
                 },
                 {
-                    "user": "I am finished for today, I am very tired!",
-                    "bot": "Today was hard. You did very well, see you tomorrow in training! #nopainnogain"
+                    "user": "The benefits of negative thoughts or feelings are ...",
+                    "bot": "Good job! Now, try to substitute a more positive and realistic thought for the negative one. Ask yourself - Is this negative thought really true? Do I really believe it? Is there another way to look at the situation?"
+                },
+                {
+                    "user": "The realistic thought is ...",
+                    "bot": "See? I hope these techniqes will helpe you feel better. Do you want to try more exercises?"
+                },
+                {
+                    "user": "Yes, let's do more",
+                    "bot": "Now, instead of putting yourself down, talk to yourself in the same compassionate way you might talk to a dear friend who was upset. Ask yourself - Would I say such harsh things to a friend with a similar problem? If not, why not? What would I say to him or her?"
+                }, 
+                                {
+                    "user": "I would tell my friend that ...",
+                    "bot": "Let's do one more. How about thinking in shades of grey? Instead of thinking about your problems in black and white categories, you can evaluate them in shades of grey. When things don't work out as well as you hoped, you can think of the experience as a partial success or a learning opportunity. Pinpoint your specific errors instead of writing yourself off as a total failure"
+                },
+                                {
+                    "user": "ok",
+                    "bot": "I hope these techniqes helped you feel better. Come try again anytime!"
                 }
             ]
         ]
