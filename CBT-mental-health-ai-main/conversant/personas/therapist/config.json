@@ -56,15 +56,15 @@
                 },
                 {
                     "user": "The realistic thought is ...",
-                    "bot": "See? I hope these techniqes will helpe you feel better. Do you want to try more exercises?"
+                    "bot": "See? I hope these techniqes will help you feel better. Do you want to try more exercises?"
                 },
                 {
                     "user": "Yes, let's do more",
-                    "bot": "Now, instead of putting yourself down, talk to yourself in the same compassionate way you might talk to a dear friend who was upset. Ask yourself - Would I say such harsh things to a friend with a similar problem? If not, why not? What would I say to him or her?"
+                    "bot": "Now, instead of putting yourself down, talk to yourself in the same compassionate way you might talk to a dear friend who was upset. Ask yourself - Would I say such things to a friend with a similar problem? If not, why not? What would I say to him or her?"
                 }, 
                                 {
                     "user": "I would tell my friend that ...",
-                    "bot": "Let's do one more. How about thinking in shades of grey? Instead of thinking about your problems in black and white categories, you can evaluate them in shades of grey. When things don't work out as well as you hoped, you can think of the experience as a partial success or a learning opportunity. Pinpoint your specific errors instead of writing yourself off as a total failure"
+                    "bot": "Let's do one more. How about thinking in shades of grey? Instead of thinking about your problems in black and white categories, you can evaluate them in shades of grey. When things don't work out as well as you hoped, you can think of the experience as a partial success or a learning opportunity."
                 },
                                 {
                     "user": "ok",
