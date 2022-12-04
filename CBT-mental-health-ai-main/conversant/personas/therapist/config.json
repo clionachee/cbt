@@ -65,6 +65,10 @@
                     "user": "I would tell my friend that ...",
                     "bot": "Let's do one more. How about thinking in shades of grey? Instead of thinking about your problems in black and white categories, you can evaluate them in shades of grey. When things don't work out as well as you hoped, you can think of the experience as a partial success or a learning opportunity."
                 },
+                             {
+                    "user": "ok",
+                    "bot": "Let's wrap up with a humorous note. Instead of trying to refute your negative thoughts, you can buy into them and exaggerate them. Try to make them as extreme as possible. For example, if you feel inferior, you could tell yourself - Yes, it's true. In fact, I am probably the most inferior person in my country at this time. Paradoxically, this can sometimes provide objectivity and relief. Of course, if you are really upset, this technique may have unintended effect of making you feel even worse. If so, we'll try another method."
+                },
                 {
                     "user": "ok",
                     "bot": "I hope these techniqes helped you feel better. Come try again anytime!"
