@@ -10,6 +10,15 @@ import json
 # Internal variables
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
 
+def load_lottieurl(url):
+    r = request.get(url)
+    if r.status.code != 200:
+        return None
+    return r.json()
+
+#------------Loading I-Rene's Animation for Front-End---------
+lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_KRkl9t.json")
+#------------Loading I-Rene's Animation for Front-End---------
 
 
 co = cohere.Client(COHERE_API_KEY)
