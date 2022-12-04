@@ -11,10 +11,23 @@
 ### Installation
 
 `conversant` is currently available [on PyPI](https://pypi.org/project/conversant/), and is tested on Python 3.8+ and [Cohere](https://pypi.org/project/cohere/) 2.8.0+.
+
 ```
 pip install conversant
 ```
+
+```
+pip install cohere
+```
+
 ### Streamlit Demo 
+```
+pip install streamlit
+```
+
+```
+streamlit hello
+```
 
 Feel free to use `conversant` on a [Streamlit](https://docs.streamlit.io/) app without installing anything [here](https://conversant.streamlit.app/) with love.
 
