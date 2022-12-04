@@ -21,11 +21,14 @@ Feel free to use `conversant` on a [Streamlit](https://docs.streamlit.io/) app w
 ︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
 ︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
 
-### Mental Health DAO NFT
+### Mental Health DAO providing 3D Healer NFT for Each I-Rene CBT Session
 
-For each CBT-session with the individual, we would grant a [MintKudos NFT Pass](https://mintkudos.xyz/) that was created using [Blender](https://www.blender.org/) with reference to NFT Pass template as created by [Thang Do](https://thangys.gumroad.com/).
+For each CBT-session with the individual, we would grant a [MintKudos NFT Pass](https://mintkudos.xyz/) . The NFT required the community access at  [Mental Health DAO](https://mintkudos.xyz/community/mentalHealthDAO) for the minting process.
 
-### Related Links:
+### Related Links of 3D Healer Pass:
+It was created using [Blender](https://www.blender.org/) with reference to NFT Pass template as created by [Thang Do](https://thangys.gumroad.com/).
+
+### Related Links of MintKudos:
 Please refer to the [MintKudos documentation](https://docs.mintkudos.xyz/) for creating, claiming and viewing the NFT.
 Please refer to the [MintKudos Developer Documentation](https://developers.mintkudos.xyz/) as a developer.
 
