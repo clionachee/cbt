@@ -5,10 +5,13 @@ from conversant.prompts import ChatPrompt
 from streamlit_lottie import st_lottie
 import conversant
 import cohere
-import json
+import pickle
+import queue
 
 # Internal variables
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
+
+
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -16,9 +19,13 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-
 co = cohere.Client(COHERE_API_KEY)
-bot = conversant.PromptChatbot.from_persona("therapist", client=co)
+
+
+if 'bot' not in st.session_state:
+    st.session_state['bot'] = conversant.PromptChatbot.from_persona("therapist", client=co)
+
+# print("\n",st.session_state.bot.chat_history,"\n")debug
 # page defaults
 st.set_page_config(
     page_title="Irene",
@@ -49,7 +56,7 @@ def get_input():
 
 user_input = get_input()
 st.session_state.inputs.append(user_input)
-st.session_state.generated.append(bot.reply(user_input))
+st.session_state.generated.append(st.session_state.bot.reply(user_input))
 if st.session_state['generated']:
     for i in range(len(st.session_state['generated'])-1, -1, -1):
         message(st.session_state["generated"][i], key=str(i), avatar_style="initials",seed="Irene")
