@@ -11,7 +11,10 @@ COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
 
 
 co = cohere.Client(COHERE_API_KEY)
-bot = conversant.PromptChatbot.from_persona("therapist", client=co)
+bot = conversant.PromptChatbot.from_persona("therapist", client=co, client_config=(model='xlarge',  
+    max_tokens=100,  
+    temperature=0.3,  
+    stop_sequences=["\n"]))
 
 # page defaults
 st.set_page_config(
