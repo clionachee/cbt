@@ -11,7 +11,7 @@ import json
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
 
 def load_lottieurl(url):
-    r = request.get(url)
+    r = requests.get(url)
     if r.status.code != 200:
         return None
     return r.json()
