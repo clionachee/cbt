@@ -17,7 +17,7 @@ Want to see it in action first? You can use `conversant` on a [Streamlit](https:
 
 ︵‿︵‿୨♡୧‿︵‿︵
 
-## Mental Health DAO NFT
+### Mental Health DAO NFT
 
 For each CBT-session with the individual, we would grant a [MintKudos NFT Pass](https://mintkudos.xyz/) that was created using [Blender](https://www.blender.org/) with reference to NFT Pass template as created by [Thang Do](https://thangys.gumroad.com/).
 
