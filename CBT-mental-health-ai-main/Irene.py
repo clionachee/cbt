@@ -1,6 +1,8 @@
+import requests
 import streamlit as st
 from streamlit_chat import message
 from conversant.prompts import ChatPrompt
+from streamlit_lottie import st_lottie
 import conversant
 import cohere
 import json
