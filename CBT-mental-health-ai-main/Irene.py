@@ -16,10 +16,6 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-#------------Loading I-Rene's Animation for Front-End---------
-lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_KRkl9t.json")
-#------------Loading I-Rene's Animation for Front-End---------
-
 
 co = cohere.Client(COHERE_API_KEY)
 bot = conversant.PromptChatbot.from_persona("therapist", client=co)
@@ -58,3 +54,12 @@ if st.session_state['generated']:
     for i in range(len(st.session_state['generated'])-1, -1, -1):
         message(st.session_state["generated"][i], key=str(i), avatar_style="initials",seed="Irene")
         message(st.session_state['inputs'][i], is_user=True, key=str(i) + '_user',seed="user",avatar_style="initials") 
+
+#------------Loading I-Rene's Animation for Front-End---------
+lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_KRkl9t.json")
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st_lottie(lottie_brain, height=222, key="brain")
+#------------Loading I-Rene's Animation for Front-End---------
