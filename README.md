@@ -49,7 +49,7 @@ pip install requests
 
 For each CBT-session with the individual, we would grant a [MintKudos NFT Pass](https://mintkudos.xyz/) . The NFT required the community access at  [Mental Health DAO](https://mintkudos.xyz/community/mentalHealthDAO) for the minting process.
 
-### Related Links of 3D Healer Pass:
+### Related Links of 3D Healer MintKudos NFT:
 It was created using [Blender](https://www.blender.org/) with reference to NFT Pass template as created by [Thang Do](https://thangys.gumroad.com/).
 
 ### Related Links of MintKudos:
