@@ -56,7 +56,7 @@ if st.session_state['generated']:
         message(st.session_state['inputs'][i], is_user=True, key=str(i) + '_user',seed="user",avatar_style="initials") 
 
 #------------Loading I-Rene's Animation for Front-End---------
-lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_KRkl9t.json")
+lottie_brain = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_KRkl9t.json")
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
