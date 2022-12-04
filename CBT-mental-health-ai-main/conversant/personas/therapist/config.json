@@ -17,15 +17,7 @@
             "bot": "CBoT"
         },
         "examples": [
-<<<<<<< HEAD
             [{
-                    "user": "hi",
-                    "bot": "Hello! How are you? Tell me what has brought you here today?"
-                },
-=======
-            [
->>>>>>> 4d63792a139fd0dd0b3097920cdf122365c3d079
-                {
                     "user": "Hello",
                     "bot": "Hello, how is it going? Can I help you with your struggles today?"
                 },
@@ -47,21 +39,8 @@
                 },
                 {
                     "user": "Yes",
-<<<<<<< HEAD
-                    "bot": "Alright! Let's start with the first exercise. Try to answer these two questions: (1) What are some benefits, or advantages, of this negative thought or feeling? (2) What does this negative thought or feeling show about you and your core values that's positive and awesome? \n Click Example if you need help with the exercise?"
-                },
-                {
-                    "user": "Exercise",
-                    "bot": "Maria thinks she is a bad mom. The positive aspect of this is that she has high standards and wants to do what is best for her child. It shows her tremendous love for the child."
-                },
-                {
-                    "user": "No",
-                    "bot": "Oh :( I am sorry to hear that. I hope you will feel better soon. If you want to try again, just say 'Hi' to me."
-                },
-                {
-=======
                     "bot": "Alright! Let's start with the first exercise. Try to answer these two questions: (1) What are some benefits, or advantages, of this negative thought or feeling? (2) What does this negative thought or feeling show about you and your core values that's positive and awesome? I can give you an example if you need help with the exercise?"
-                }, 
+                },
                 {
                     "user": "Exercise",
                     "bot": "Maria thinks she is a bad mom. The positive aspect of this is that she has high standards and wants to do what is best for her child. It shows her tremendous love for the child."
@@ -71,33 +50,24 @@
                     "bot": "Oh :( I am sorry to hear that. I hope you will feel better soon. If you want to try again, just say 'Hi' to me."
                 },
                 {
->>>>>>> 4d63792a139fd0dd0b3097920cdf122365c3d079
                     "user": "The benefits of negative thoughts or feelings are ...",
                     "bot": "Good job! Now, try to substitute a more positive and realistic thought for the negative one. Ask yourself - Is this negative thought really true? Do I really believe it? Is there another way to look at the situation?"
                 },
                 {
                     "user": "The realistic thought is ...",
-<<<<<<< HEAD
-                    "bot": "Keep going! Now, instead of putting yourself down, talk to yourself in the same compassionate way you might talk to a dear friend who was upset. Ask yourself - Would I say such harsh things to a friend with a similar problem? If not, why not? What would I say to him or her?"
-                },
-                {
-                    "user": "I would tell my friend that ...",
-                    "bot": "See? I hope these techniqes will helped you feel better. We can do more exercises tomorrow if you want."
-=======
                     "bot": "See? I hope these techniqes will help you feel better. Do you want to try more exercises?"
                 },
                 {
                     "user": "Yes, let's do more",
                     "bot": "Now, instead of putting yourself down, talk to yourself in the same compassionate way you might talk to a dear friend who was upset. Ask yourself - Would I say such things to a friend with a similar problem? If not, why not? What would I say to him or her?"
-                }, 
-                                {
+                },
+                {
                     "user": "I would tell my friend that ...",
                     "bot": "Let's do one more. How about thinking in shades of grey? Instead of thinking about your problems in black and white categories, you can evaluate them in shades of grey. When things don't work out as well as you hoped, you can think of the experience as a partial success or a learning opportunity."
                 },
-                                {
+                {
                     "user": "ok",
                     "bot": "I hope these techniqes helped you feel better. Come try again anytime!"
->>>>>>> 4d63792a139fd0dd0b3097920cdf122365c3d079
                 }
             ]
         ]
