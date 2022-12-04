@@ -39,7 +39,7 @@ if 'inputs' not in st.session_state:
     st.session_state['inputs'] = []
 
 # top header variables
-HEAD_DESC = "I-rene is a chatbot specializing in Cognitive Behavioral Therapy (CBT), your first line of help when you have no access to therapy. \n CBT is a form of psychological treatment that has been demonstrated to be effective for a range of problems including depression, anxiety disorders, alcohol and drug use problems, marital problems, eating disorders, and severe mental illness. Numerous research studies suggest that CBT leads to significant improvement in functioning and quality of life. In many studies, CBT has been demonstrated to be as effective as, or more effective than, other forms of psychological therapy or psychiatric medications. See more [here](https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral). \n I-Rene will give you different exercises for your needs and encourage you to keep exercising for better mental health."
+HEAD_DESC = "I-rene is a chatbot specializing in Cognitive Behavioral Therapy (CBT), your first line of help when you have no access to therapy. \n CBT is a form of psychological treatment that has been demonstrated to be effective for a range of problems including depression, anxiety disorders, alcohol and drug use problems, marital problems, eating disorders, and severe mental illness. Numerous research studies suggest that CBT leads to significant improvement in functioning and quality of life. See more [here](https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral). \n I-Rene will give you different exercises for your needs and encourage you to keep exercising for better mental health."
 
 # top header
 header_cont = st.container()
