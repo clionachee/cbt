@@ -26,7 +26,7 @@ if 'inputs' not in st.session_state:
     st.session_state['inputs'] = []
 
 # top header variables
-HEAD_DESC = "I-rene is a chatbot specializing in CBT therapies, with extensive Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+HEAD_DESC = "I-rene is a chatbot specializing in Cognitive Behavioral Therapy (CBT), your first line of help when you have no access to therapy. CBT is ... More info on CBT - button. \n I-Rene will give you different exercises for your needs and encourage you to keep exercising for better mental health."
 
 # top header
 header_cont = st.container()
