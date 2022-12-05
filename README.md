@@ -24,10 +24,13 @@ pip install cohere
 ```
 pip install streamlit
 ```
-
 ```
 streamlit hello
+```
+```
 pip install streamlit-chat
+```
+```
 pip install jason
 ```
 
