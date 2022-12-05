@@ -84,6 +84,16 @@ It was created using [Blender](https://www.blender.org/) with reference to NFT P
 Please refer to the [MintKudos documentation](https://docs.mintkudos.xyz/) for creating, claiming and viewing the NFT.
 Please refer to the [MintKudos Developer Documentation](https://developers.mintkudos.xyz/) as a developer.
 
+︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
+︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
+︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
+
+### Emergency help?
+While the context-dependent answers provided by the I-Rene artificial intelligence chatbot is at its alpha stage, it is consistently improvised to be more effective and the result varies for different individuals of different symptoms. Contact us at mentalhealthengineering@gmail.com for any constructive criticism.
+
+Please contact your local lifeline from [The List of International Suicide Hotlines](https://www.psychologytoday.com/us/basics/suicide/suicide-prevention-hotlines-resources-worldwide) if you or your loved ones are having mental burden or harming any human lives on pupose. 
+
+We are on this journey with you, let's heal with love together. 
 
 
               
