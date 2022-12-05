@@ -2,7 +2,7 @@ from conversant.prompts import ChatPrompt
 import conversant
 import cohere
 
-co = cohere.Client("Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn")
+co = cohere.Client("api key")
 bot = conversant.PromptChatbot.from_persona("therapist", client=co)
 print(bot.reply("Hello!"))
 while(True):
