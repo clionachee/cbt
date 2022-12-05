@@ -58,7 +58,21 @@ streamlit run Irene.py
 ︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
 ︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
 
-### Mental Health DAO providing 3D Healer NFT for Each I-Rene CBT Session
+### Who made this possible?
+- [LabLab.ai](https://lablab.ai/)
+- [Co:here](https://cohere.ai/)
+- [New Native](https://newnative.ai/)
+- [Nextgrid](https://nextgrid.ai/)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+
+### Join future hackathons hosted by [LabLab.ai](https://lablab.ai/) to create wonderful projects like ours!
+- [Register fot the next LabLab.ai Hackathon](https://lablab.ai/event)
+
+︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
+︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
+︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿୨♡୧‿︵‿︵︵‿︵‿
+
+### Mental Health DAO providing I-Rene Healing NFT for Each I-Rene CBT Session
 
 For each CBT-session with the individual, we would grant a [MintKudos NFT Pass](https://mintkudos.xyz/) . The NFT required the community access at  [Mental Health DAO](https://mintkudos.xyz/community/mentalHealthDAO) for the minting process.
 
