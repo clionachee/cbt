@@ -72,4 +72,5 @@ def load_lottieurl(url):
 #------------Loading I-Rene's Animation for Front-End---------
     
 lottie_hello = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_rMOSF5k88d.json")
+#Attribution: Joyful female doctor Illustration by Lihin Souw
 #------------Loading I-Rene's Animation for Front-End---------
