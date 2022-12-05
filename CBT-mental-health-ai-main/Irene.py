@@ -1,11 +1,13 @@
-import requests
+import json
+
 import streamlit as st
 from streamlit_chat import message
 from conversant.prompts import ChatPrompt
-from streamlit_lottie import st_lottie
 import conversant
 import cohere
-import json
+
+import requests #pip intall requests
+from streamlit_lottie import st_lottie #install streamlit-lottie-for-front-end-animation
 
 # Internal variables
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
