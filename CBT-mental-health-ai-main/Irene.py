@@ -12,14 +12,6 @@ from streamlit_lottie import st_lottie #install streamlit-lottie-for-front-end-a
 # Internal variables
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
 
-#------------I-Rene's Animation for Front-End---------
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status.code != 200:
-        return None
-    return r.json()
-#------------I-Rene's Animation for Front-End---------
-
 #------------I-Rene's Back-End---------
 co = cohere.Client(COHERE_API_KEY)
 bot = conversant.PromptChatbot.from_persona("therapist", client=co)
@@ -28,10 +20,12 @@ st.set_page_config(
     page_title="Irene",
     page_icon=":mage:"
 )
-
+# check: 'key' already exists in session_state
+# if not existing: initialize it
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
-
+    
+# Session State also supports the attribute based syntax
 if 'inputs' not in st.session_state:
     st.session_state['inputs'] = []
 
@@ -60,11 +54,20 @@ if st.session_state['generated']:
         message(st.session_state['inputs'][i], is_user=True, key=str(i) + '_user',seed="user",avatar_style="initials") 
 #------------I-Rene's Back-End---------
 
+#------------I-Rene's Animation for Front-End---------
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status.code != 200:
+        return None
+    return r.json()
+#------------I-Rene's Animation for Front-End---------
+
 #------------Loading I-Rene's Animation for Front-End---------
+    
 lottie_love = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_9E5UPyEs9M.json")
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st_lottie(lottie_love, height=222, key="brain")
+        st_lottie(lottie_love, height=222, key="love")
 #------------Loading I-Rene's Animation for Front-End---------
