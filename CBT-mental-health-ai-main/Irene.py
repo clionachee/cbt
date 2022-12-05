@@ -11,6 +11,7 @@ from streamlit_lottie import st_lottie #install streamlit-lottie-for-front-end-a
 
 from embeddify import Embedder
 
+
 # Internal variables
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
 
@@ -22,13 +23,14 @@ st.set_page_config(
     page_title="Irene",
     page_icon=":mage:"
 )
+
+
 # check: 'key' already exists in session_state
 # if not existing: initialize it
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
     
 # Session State also supports the attribute based syntax
-if 'inputs' not in st.session_state:
     st.session_state['inputs'] = []
 
 # top header variables
@@ -72,5 +74,4 @@ def load_lottieurl(url):
 #------------Loading I-Rene's Animation for Front-End---------
     
 lottie_hello = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_rMOSF5k88d.json")
-#Attribution: Joyful female doctor Illustration by Lihin Souw
 #------------Loading I-Rene's Animation for Front-End---------
