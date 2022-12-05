@@ -57,8 +57,3 @@ if st.session_state['generated']:
         message(st.session_state["generated"][i], key=str(i), avatar_style="initials",seed="Irene")
         message(st.session_state['inputs'][i], is_user=True, key=str(i) + '_user',seed="user",avatar_style="initials") 
 #------------I-Rene's Back-End---------
-
-#------------Claiming I-Rene's CBT Healer MintKudos NFT---------
-if st.checkbox("Claim Healing NFT with free mint and gas fees are not charged to you!"):
-    "https://mintkudos.xyz/claim/2a1dfa46-c0fc-431d-b4f8-1ae2ddc5bb4f"
-#------------Claiming MintKudos NFT---------
