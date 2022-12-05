@@ -27,6 +27,8 @@ pip install streamlit
 
 ```
 streamlit hello
+pip install streamlit-chat
+pip install jason
 ```
 
 Feel free to use `conversant` on a [Streamlit](https://docs.streamlit.io/) app without installing anything [here](https://conversant.streamlit.app/) with love.
