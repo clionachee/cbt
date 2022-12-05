@@ -9,6 +9,8 @@ import cohere
 import requests #pip intall requests
 from streamlit_lottie import st_lottie #install streamlit-lottie-for-front-end-animation
 
+from embeddify import Embedder
+
 # Internal variables
 COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
 
@@ -54,6 +56,11 @@ if st.session_state['generated']:
         message(st.session_state['inputs'][i], is_user=True, key=str(i) + '_user',seed="user",avatar_style="initials") 
 #------------I-Rene's Back-End---------
 
+#------------Claiming I-Rene's CBT Healer MintKudos NFT---------
+if st.checkbox("Claim Healing NFT with free mint and gas fees are not charged to you!"):
+    "https://mintkudos.xyz/claim/2a1dfa46-c0fc-431d-b4f8-1ae2ddc5bb4f"
+#------------Claiming MintKudos NFT---------
+
 #------------I-Rene's Animation for Front-End---------
 def load_lottieurl(url):
     r = requests.get(url)
@@ -64,10 +71,5 @@ def load_lottieurl(url):
 
 #------------Loading I-Rene's Animation for Front-End---------
     
-lottie_love = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_9E5UPyEs9M.json")
-with st.container():
-    st.write("---")
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st_lottie(lottie_love, height=222, key="love")
+lottie_hello = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_rMOSF5k88d.json")
 #------------Loading I-Rene's Animation for Front-End---------
