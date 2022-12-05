@@ -62,16 +62,3 @@ if st.session_state['generated']:
 if st.checkbox("Claim Healing NFT with free mint and gas fees are not charged to you!"):
     "https://mintkudos.xyz/claim/2a1dfa46-c0fc-431d-b4f8-1ae2ddc5bb4f"
 #------------Claiming MintKudos NFT---------
-
-#------------I-Rene's Animation for Front-End---------
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status.code != 200:
-        return None
-    return r.json()
-#------------I-Rene's Animation for Front-End---------
-
-#------------Loading I-Rene's Animation for Front-End---------
-    
-lottie_hello = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_rMOSF5k88d.json")
-#------------Loading I-Rene's Animation for Front-End---------
