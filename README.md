@@ -64,7 +64,7 @@ streamlit run Irene.py
 - [New Native](https://newnative.ai/)
 - [Nextgrid](https://nextgrid.ai/)
 - [Streamlit Documentation](https://docs.streamlit.io/)
-- [Mental Health Engineering](mentalhealthengineering.com)
+- [Mental Health Engineering](https://mentalhealthengineering.com/)
 
 ### Join future hackathons hosted by [LabLab.ai](https://lablab.ai/) to create wonderful projects like ours!
 - [Register fot the next LabLab.ai Hackathon](https://lablab.ai/event)
