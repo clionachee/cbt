@@ -6,7 +6,7 @@ import cohere
 
 
 # Internal variables
-COHERE_API_KEY = "Aa3yKEwtz0wRbRRuPTZ6VvPqXrS9Nvgn9uh6cawn"
+COHERE_API_KEY = "API KEY"
 
 co = cohere.Client(COHERE_API_KEY)
 
